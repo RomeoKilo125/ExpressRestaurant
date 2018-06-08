@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Express Restaurant</title>
@@ -9,33 +10,69 @@
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/master.css">
+  <link rel="stylesheet" href="css/master.css">
 </head>
-    <body>
 
-        <div class="container">
+<body>
 
-            <div class="jumbotron">
-                <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span>Express Restaurant</h1>
-                <hr>
-                <h2 class="text-center">We only have 5 tables! Book your seat before they all are gone!</h2>
-                <br>
+  <div class="container">
 
-                <div class="text-center">
-                    <a href="/tables"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a>
-                    <a href="/reserve"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button></a>
-                </div>
+    <div class="jumbotron">
+      <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span>Express Restaurant</h1>
+      <hr>
+      <h2 class="text-center">We only have 5 tables! Book your seat before they all are gone!</h2>
+      <br>
 
-            </div>
+      <div class="text-center">
+        <a href="/tables"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a>
+        <a href="/reserve"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button></a>
+      </div>
 
-        <footer class="footer">
-          <div class="container">
-                <p><a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a></p>
-          </div>
-        </footer>
+    </div>
 
+  </div>
+  <!--footer-->
+  <section id="footer" class="footer">
+    <div class="container-fluid">
+      <div class="row text-center text-xs-center text-sm-center text-md-left">
+        <div class="col-xs-12 col-sm-12 col-md-3">
+          <h5 class="footerh5">Quick Links</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a class="links" href="/api/tables"><i class="fa fa-angle-double-right links"></i>API table Link</a></li>
+            <li><a class="links" href="/api/waitlist"><i class="fa fa-angle-double-right links"></i>API wait list</a></li>
+            <li><a class="links" href="https://mercerbe.github.io/benmercer.org/" target="_blank"><i class="fa fa-angle-double-right links"></i>Github</a></li>
+          </ul>
         </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline text-center">
+            <h5 class="footerh5">Connect With Us:</h5>
+            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><img width="35px" src="images/facebook.png" /></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com" target="_blank"><img width="35px" src="images/twitter.png" /></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com" target="_blank"><img width="35px" src="images/linkedin.png" /></a></li>
+            <li class="list-inline-item"><a href="https://www.google.com" target="_blank"><img width="35px" src="images/google.png" /></a></li>
+            <li class="list-inline-item"><a href="https://github.com/mercerbe/" target="_blank"><img width="35px" src="images/github.png" /></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"><img width="35px" src="images/instagram.png" /></a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 text-md-right text-sm-center text-xs-center">
+          <h5 class="footerh5">Other Resources</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a class="links" href="http://www.jquery-backstretch.com/" target="_blank"><i class="fa fa-angle-double-right links"></i>Backstretch</a></li>
+            <li><a class="links" href="http://ejs.co//" target="_blank"><i class="fa fa-angle-double-right links"></i>EJS</a></li>
+            <li><a class="links" href="https://expressjs.com/" target="_blank"><i class="fa fa-angle-double-right links"></i>ExpressJS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="h6 copy">&copyBenMercerCodes</p>
+  </section>
 
+  <!--scripts-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--backstretch-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+</body>
 
-    </body>
-    </html>
+</html>
